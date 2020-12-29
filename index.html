@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title> 📱 Astrofotografias 📡 </title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+        crossorigin="anonymous"/>
+    </head>
+        <style>
+        body { background-color: #ecf5f3; }
+        </style>
+    
+    <body>    
+        <div class="container my-5 text-center" >
+        <h1 class="text-info" style= background-color:rgb(240,224,224);>Astrofotografías-NASA API</h1>
+            <div class="row justify-content-center mt-2">
+                <div class="col-6 ">
+                    <input
+                    type="text" 
+                    class="form-control"
+                    id="input"
+                    placeholder="Copiar y pegar titulo de la foto" aria-label="Search"/>
+                    <button type="button" class="btn btn-danger w-20 mt-3" id="find">Buscar        
+                    </button>                
+                </div>
+            </div>
+            <!-- nodos dinamicos (REQUEST HTPP -->
+            <div class="row mt-1" id="api_NASA"></div>
+            <p id="message"></p>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
