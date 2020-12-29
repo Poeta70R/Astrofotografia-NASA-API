@@ -1,7 +1,7 @@
 
 const URL = "https://api.nasa.gov/planetary/apod?api_key=gRsHj0g1gvSmdwdBUU7Bla9eHV74pmebXa26qeDG&count=9";
 
-let fotografias = []; // contiene 10 fotografias astronomicas seleccionadas al azar
+let fotografias = []; // contiene 9 fotografias astronomicas seleccionadas al azar
  
 // Funcion encargada de traer los datos de las fotografias
 const fetchFotografias = async (url = URL) => {
